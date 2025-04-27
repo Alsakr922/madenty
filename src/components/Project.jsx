@@ -9,7 +9,7 @@ const Project = ({ img, title, description , reverse,href,rounded }) => {
       }`}>
       <img
         src={img}
-        className={`sm:w-full  ${
+        className={`sm:w-full max-w-full  ${
           rounded
             ? rounded === "l"
               ? "rounded-l-full"
