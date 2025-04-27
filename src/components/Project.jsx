@@ -19,9 +19,9 @@ const Project = ({ img, title, description , reverse,href,rounded }) => {
         alt=""
       />
       <div className="text-black text-center">
-        <p className="lg:text-4xl text-xl hover:scale-110 duration-300 transition-all ease-in-out">
+        <p className="lg:text-4xl text-xl">
           <Link to={`/${href}`}>
-            <span className="lg:text-3xl text-2xl block p-2 lg:p-10">
+            <span className="lg:text-5xl text-4xl block p-2 lg:p-10 hover:scale-110 duration-300 transition-all ease-in-out">
               {title}
             </span>
           </Link>
